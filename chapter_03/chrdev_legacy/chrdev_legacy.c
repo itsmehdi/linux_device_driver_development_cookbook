@@ -3,8 +3,8 @@
  */
 
 #define pr_fmt(fmt) "%s:%s: " fmt, KBUILD_MODNAME, __func__
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <linux/kernel.h> /*header part of the kernel source used for modules*/
+#include <linux/module.h> /*used for dynamique loading of modules into the kernel*/
 #include <linux/fs.h>
 
 /* Device major umber */
